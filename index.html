@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Examen Desarrollo Web</title>
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenid@ a mi Página Web</h1>
+    </header>
+    <main>
+        <h2>Sobre mí</h2>
+        <p>Hola! Soy <span class="nombre">Gadi Medero</span>. Me apasiona el Desarrollo Web y estoy emocionada de
+            compartir lo que he aprendido en las clases de <span class="nombre">Luis Laiton</span>, clonando su
+            página de ejemplo. &#128514;</p>
+        <h2>Imagen Destacada</h2>
+    </main>
+    <figure>
+        <img src="./src/imagen.jpeg" alt="Imagen representativa">
+        <figcaption>Esta imagen es impresionante...</figcaption>
+    </figure>
+    <div>
+        <h2>Mi lista de favoritos</h2>
+        <ul id="favoritos">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+    <div>
+        <h2>Mi lista numerada</h2>
+        <ol id="numerada" type="A">
+            <li>Desarrollo Web</li>
+            <li>UI/UX</li>
+            <li>Accesibilidad</li>
+        </ol>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+            </tr>
+            <tr>
+                <td>Gadi</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Jannah</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
+
+    <video width="640" height="480" controls autoplay>
+        <source src="./src/pexels-edward-rode-13898678-1280x720-30fps.mp4" type="video/mp4">
+    </video>
+
+    <audio controls muted>
+        <source src="./src/empty-mind-118973.mp3" type="audio/mpeg">
+    </audio>
+
+    <form>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" required><br><br>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" required><br><br>
+
+        <label for="age">Edad:</label>
+        <input type="number" id="age" required><br><br>
+
+        <label for="message">Mensaje:</label><br>
+        <textarea id="message" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+    </form>
+
+</body>
+
+<footer>    
+
+    <div>
+    <h2>Contacto</h2>
+    <p>Puedes contactarme en mi <a id="boton" href="https://github.com/AbiMeGab">sitio web</a> para obtener más información. ¡Espero tener una buena nota esta vez! &#128514;&#128076;</p>
+    </div>
+
+</footer>
+
+</html>

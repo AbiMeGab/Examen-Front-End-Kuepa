@@ -1,0 +1,94 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #2D2D2D;
+}
+
+h1 {
+    color: #0071F8;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.nombre {
+    color: red;
+    font-weight: bold;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: #B9B7B8;
+    font-size: 15px;
+}
+
+figure {
+    color: #787878;
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+}
+
+figure img {
+    height: 200px;
+    border: 3px #0071F8 solid;
+    margin-bottom: 15px;
+}
+
+#favoritos {
+    color: #74AE73;
+    padding-left: 1%;
+    list-style: "\1F9E1";
+}
+
+#numerada {
+    color: #B19950;
+    padding-left: 1%;
+}
+
+#boton {
+    color: #2D2D2D;
+    text-decoration: underline;
+    background-color: #FFC432;
+    border: 3px #FFC432 solid;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+audio, video, iframe, table, form, button {
+    color: #B9B7B8;
+    font-size: 15px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border-collapse: collapse;
+  }
+  
+  table td, table th {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000;
+  }
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
